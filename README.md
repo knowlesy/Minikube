@@ -9,6 +9,14 @@ skip anything already installed
     choco install minikube -y
     choco install kubernetes-helm -y
 
+Start Minikube
+
+    minikube start
+
+Get the status 
+
+    minikube status
+
 
 Open CMD - cd into a working directory
 
@@ -35,6 +43,9 @@ Upgrade any deployments
 
     helm upgrade dadjokes dadjokes/ --values dadjokes/values.yaml -i --namespace=sometest
 
+Connect to the deployment
+
+    minikube tunnel
 
 Test via powershell 
     
@@ -44,6 +55,10 @@ web browser
 
     http://127.0.0.1:8100/
 
+
+To see the containers etc 
+
+    kubectl get all -A
 
 ##Stop the fun ##
 
