@@ -25,11 +25,11 @@ OPTIONAL - run this in your terminal to ensure the helm charts repo are added
 
     helm repo add  stable     https://charts.helm.sh/stable
 
-Creates the helm chart basic structure 
+Creates the helm chart basic structure (have a browse through to see what it creates)
     
     helm create dadjokes
 
-You can always just clone this repo...
+However just clone this repo...
 
 verify the chart 
 
