@@ -1,0 +1,6 @@
+appName: supercooldadjokes
+port: 8100
+namespace: sometest
+image:
+  name: yesinteractive/dadjokes
+  tag: latest

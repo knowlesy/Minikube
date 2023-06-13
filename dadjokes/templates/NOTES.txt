@@ -1,0 +1,7 @@
+Visit http://127.0.0.1:{{ .Values.port }} to use your application
+
+You can run the following in pwsh to get a joke
+
+Invoke-WebRequest -uri "http://127.0.0.1:{{ .Values.port }}/" | Select-Object -ExpandProperty content | ConvertFrom-Json | Select-Object -ExpandProperty Joke | FT
+
+
