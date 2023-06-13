@@ -79,3 +79,9 @@ The following will delete the helm chart and stop it from running
 * [Devops Journey Helm Charts](https://youtu.be/jUYNS90nq8U)
 * [What is Helm - IBM](https://www.youtube.com/watch?v=fy8SHvNZGeE)
 
+## Misc Commands ##
+
+    kubectl get pods
+    kubectl get replicaset
+    kubectl delete services supercooldadjokes --namespace=sometest
+    kubectl delete deployment supercooldadjokes --namespace=sometest
