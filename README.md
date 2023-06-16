@@ -60,7 +60,7 @@ To see the containers etc
 
     kubectl get all -A
 
-##Stop the fun ##
+## Stop the fun ##
 
 The following will delete the helm chart and stop it from running 
 
